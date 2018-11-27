@@ -1,7 +1,5 @@
 FROM centos
 
-RUN apk add
-
 RUN pip install flask
 
 COPY app.py /opt/
